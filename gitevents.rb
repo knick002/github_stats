@@ -1,13 +1,15 @@
 require 'date'
 require_relative './testapi/base.rb'
 
+URL_EVENTS_SUFFIX = "/events"
+
 class GitEvents < TestAPI::Base
     
     def initialize
         @options = options_parser
     	@no_sign_in = true
         super
-        @@base_request =  "/events"
+        @@base_request =  URL_EVENTS_SUFFIX
     end
     
     def get_events
