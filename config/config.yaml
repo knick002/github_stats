@@ -1,0 +1,10 @@
+server: ''
+user_email: ''
+user_pwd: ''
+mime: {'Accept': 'application/vnd.github.v3+json'}
+http_auth_user: ''
+http_auth_pwd: ''
+base_url: 'https://api.github.com'
+
+
+
